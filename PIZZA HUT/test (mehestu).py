@@ -1,4 +1,4 @@
-# from prettytable import PrettyTable
+1# from prettytable import PrettyTable
 
 # tabel = PrettyTable()
 # tabel_jumlah = PrettyTable()

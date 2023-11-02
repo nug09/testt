@@ -88,24 +88,21 @@ for _ in range(jumlah_pizza):
     elif crust == 4 :
         hargacrust = 55455 # untuk harga pizza dengan pinggiran cheessy bites 
         if ukuran == 1 : 
-            hargaukuran = 0 # ukuran personal dengan ukuran personal 
+            hargaukuran = 0 # harga dengan ukuran personal 
         elif ukuran == 2 :
-            hargaukuran= 65455 # ukuran personal dengan ukuran reguler 
+            hargaukuran= 65455 #harga dengan ukuran reguler 
         else:
-            hargaukuran = 104545 # ukuran personal dengan ukuran large 
+            hargaukuran = 104545 # harga dengan ukuran large 
             
     #fungsi if untuk harga pizza dengan pinggiran crown crust dan juga harga per ukurannya 
     else:
-        hargacrust = 55455 #harga crust Crown Crust
+        hargacrust = 55455 #untuk harga pizza dengan pinggiran crust Crown Crust
         if ukuran == 1:
             hargaukuran= 0 #harga jika ukuran personal
         elif ukuran == 2:
             hargaukuran = 65455 #harga jika ukuran regular
-        elif ukuran == 3:
-            hargaukuran = 104545 #harga jika ukuran large
         else:
-            print("menu anda tidak ada")
-    
+            hargaukuran = 104545 #harga jika ukuran large
     
             
     #fungsi if untuk jika pelanggan ingin menambahkan Extra Cheese beserta harga per ukuran pizza

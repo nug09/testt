@@ -96,7 +96,8 @@ else:
     elif ukuran == 2:
         harga += 65455 #harga jika ukuran regular
     else:
-        harga += 104545 #harga jika ukuran large
+        harga += 104545 #harga jika ukuran large1
+        
 
 #fungsi if untuk jika pelanggan ingin menambahkan Extra Cheese beserta harga per ukuran pizza
 if xtracz == "Y":

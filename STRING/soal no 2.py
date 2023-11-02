@@ -15,3 +15,4 @@ kata_dicari = input("masukan kata yang dicari: ")
 frekuensi = hitung_kemunculan_kata(kalimat, kata_dicari)
 
 print(f"{kata_dicari} ada {frekuensi} buah")
+print(f"{kata_dicari} ada {frekuensi} buah")
